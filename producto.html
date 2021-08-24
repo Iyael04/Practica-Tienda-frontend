@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link href="./css/normalize.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="./img/logo.png">
+        </a>
+    </header>
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Inicio</a>
+        <a class="navegacion__enlace" href="#">Tienda</a>
+    </nav>
+    <main class="contenedor">
+        <h1>React JS</h1>
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/3.jpg">
+            <div class="camisa__contenido">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                   Ipsum, voluptatum architecto incidunt, aperiam quas fugit
+                   in iusto cumque sit officia asperiores ratione? Fugit obcaecati,
+                   odio asperiores qui saepe sequi illum!</p>
+
+                   <form class="formulario">
+                       <select class="formulario__campo">
+                           <option disabled selected>Selecciona tu talla</option>
+                           <option>Chica</option>
+                           <option>Mediana</option>
+                           <option>Grande</option>
+                       </select>
+                       <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                       <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                   </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos los derechos reservados 2022.</p>
+    </footer>
+</body>
+</html>
